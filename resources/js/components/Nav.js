@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { Link, Router } from "react-router-dom";
+import "./css/NavBar.css";
 
 const Nav = () => {
+
+
     return (
         <div>
             <div className="header">
@@ -85,10 +88,10 @@ const Nav = () => {
                                 </Link>
                             </li>
                             <li className="submenu">
-                                <Link to="/add-contact">
+                                <Link to="/add-warehouse">
                                     <i className="icofont-code"></i>
 
-                                    <span> add contact</span>
+                                    <span> add Warehouse</span>
 
                                     <span className="menu-arrow">
                                         <i className="icofont-simple-right"></i>
@@ -96,10 +99,32 @@ const Nav = () => {
                                 </Link>
                             </li>
                             <li className="submenu">
+                                <Link to="/manage-warehouse">
+                                    <i className="icofont-code"></i>
+
+                                    <span> Manage Warehouse</span>
+
+                                    <span className="menu-arrow">
+                                        <i className="icofont-simple-right"></i>
+                                    </span>
+                                </Link>
+                            </li>
+
+                            <li className="submenu">
                                 <Link to="/manage-contact">
                                     <i className="icofont-code"></i>
 
                                     <span> manage contact</span>
+
+                                    <span className="menu-arrow">
+                                        <i className="icofont-simple-right"></i>
+                                    </span>
+                                </Link>
+
+                                <Link to="/add-contact">
+                                    <i className="icofont-code"></i>
+
+                                    <span> Add contact</span>
 
                                     <span className="menu-arrow">
                                         <i className="icofont-simple-right"></i>

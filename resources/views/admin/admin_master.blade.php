@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}admin/css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}admin/css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}admin/css/style.css">
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.min.js"></script>
@@ -33,13 +35,14 @@
 
 <body>
 <div class="main-wrapper slide-nav">
-  
+
 
 
         <div id="example"></div>
 
     </div>
     <div class="sidebar-overlay" data-reff=""></div>
+
     <script type="text/javascript" src="{{asset('/')}}admin/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="{{asset('/')}}admin/js/popper.min.js"></script>
     <script type="text/javascript" src="{{asset('/')}}admin/js/bootstrap.min.js"></script>
@@ -48,8 +51,9 @@
     <script type="text/javascript" src="{{asset('/')}}admin/js/jquery.slimscroll.js"></script>
     <script type="text/javascript" src="{{asset('/')}}admin/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="{{asset('/')}}admin/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{asset('/')}}admin/js/dropdown.js"></script>
     <script type="text/javascript" src="{{asset('/')}}admin/js/select2.min.js"></script>
-    <script type="text/javascript" src="{{asset('/')}}admin/js/app.js"></script>
+
 </body>
 
 </html>

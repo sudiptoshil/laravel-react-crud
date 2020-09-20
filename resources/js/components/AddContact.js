@@ -99,6 +99,8 @@ class AddContact extends Component {
                     </div>
                 </div>
             </div>
+
+
         );
     }
 }
